@@ -1,9 +1,8 @@
-import 'package:fashion_app/src/activities/login_activity.dart';
-import 'package:fashion_app/src/activities/use_profile_activity.dart';
-import 'package:fashion_app/src/providers/ui_provider.dart';
-import 'package:fashion_app/src/widgets/custom_navigatorbar.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'activities.dart';
 
 class HomeActivity extends StatefulWidget {
   @override

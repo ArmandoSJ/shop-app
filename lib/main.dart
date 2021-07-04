@@ -30,10 +30,10 @@ class MyApp extends StatelessWidget {
           const Locale('en', 'US'), // English
           const Locale('es', 'ES'), // Spanish
         ],
-        initialRoute: 'main',
+        initialRoute: 'products',
         routes: getApplicationRoutes(),
         theme: ThemeData(
-            primaryColor: Colors.black,
+            primaryColor: Colors.purple.shade50,
             floatingActionButtonTheme:
                 FloatingActionButtonThemeData(backgroundColor: Colors.blue)),
       ),

@@ -1,8 +1,7 @@
-import 'package:fashion_app/src/activities/signup_activity.dart';
+import 'package:fashion_app/src/activities/activities.dart';
 import 'package:flutter/material.dart';
-import 'package:fashion_app/src/activities/home_activity.dart';
-import 'package:fashion_app/src/activities/login_activity.dart';
-import 'package:fashion_app/src/activities/welcome_activity.dart';
+
+
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
   return <String, WidgetBuilder>{
@@ -10,5 +9,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     'signup': (BuildContext context) => SignUpActivity(),
     'home': (BuildContext context) => HomeActivity(),
     'main': (BuildContext context) => WelcomeActivity(),
+    'products': ( _ ) => ProductsActivity(),
+    'product-detail': ( _ ) => ProductDetailActivity(),
   };
 }

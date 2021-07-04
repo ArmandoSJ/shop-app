@@ -1,7 +1,8 @@
-import 'package:fashion_app/src/widgets/buttons.dart';
+
 import 'package:flutter/material.dart';
-import 'package:fashion_app/src/widgets/main_view.dart';
 import 'package:fashion_app/src/utils/constants.dart' as utils;
+import 'package:fashion_app/src/widgets/buttons.dart';
+import 'activities.dart';
 
 class MainActivity extends StatelessWidget {
   @override
