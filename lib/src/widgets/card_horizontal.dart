@@ -52,7 +52,7 @@ class _CardView extends StatelessWidget {
         child: Column(
           children: [
             GestureDetector(
-              onTap: () => Navigator.pushNamed(context, 'product-detail'),
+              onTap: () => Navigator.pushNamed(context, 'product-detail', arguments : 'movie-argument'),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: FadeInImage(

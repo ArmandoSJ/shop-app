@@ -18,6 +18,10 @@ class ProductsActivity extends StatelessWidget {
             IconButton(
               icon: Icon(Icons.search_outlined),
               onPressed: () {},
+           ),
+           IconButton(
+              icon: Icon(Icons.shopping_cart),
+              onPressed: () {},
            )
         ]
       ),
@@ -25,8 +29,8 @@ class ProductsActivity extends StatelessWidget {
         child: Column(
             children:[
               SizedBox(height: 5),
-              Text('Productos', style: TextStyle( fontSize: 15, fontWeight:FontWeight.bold ) ),
-              SizedBox(height: 5),
+              HeaderCategory(),
+              SizedBox(height: 10),
               CardSwiper(),
               SizedBox(height: 3),
               CardHorizontal(title: '5-10'),
