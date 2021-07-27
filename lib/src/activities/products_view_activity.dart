@@ -1,8 +1,7 @@
-import 'package:fashion_app/src/activities/loading_page_activity.dart';
-import 'package:fashion_app/src/widgets/carousel_slider.dart';
-import 'package:fashion_app/src/widgets/nav_bar.dart';
-import 'package:fashion_app/src/widgets/nav_bar_banner.dart';
-import 'package:fashion_app/src/widgets/widgets.dart';
+import 'package:shop_app/src/activities/loading_page_activity.dart';
+import 'package:shop_app/src/widgets/carousel_slider.dart';
+import 'package:shop_app/src/widgets/nav_bar.dart';
+import 'package:shop_app/src/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class ProductsActivity extends StatelessWidget {
@@ -10,13 +9,13 @@ class ProductsActivity extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:
-          AppBar(title: Text("Catalogo de productos"), elevation: 0, actions: [
+          AppBar(title: Text("TANTE BABY Boutique"), elevation: 0, actions: [
         IconButton(
           icon: Icon(Icons.search_outlined),
           onPressed: () {},
         ),
         IconButton(
-          icon: Icon(Icons.shopping_cart),
+          icon: Icon(Icons.favorite),
           onPressed: () {},
         )
       ]),

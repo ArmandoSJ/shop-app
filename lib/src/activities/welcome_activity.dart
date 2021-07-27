@@ -1,4 +1,4 @@
-import 'package:fashion_app/src/activities/main_activity.dart';
+import 'package:shop_app/src/activities/main_activity.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeActivity extends StatelessWidget {

@@ -26,12 +26,16 @@ class FullscreenSliderDemo extends StatelessWidget {
             ),
             items: imgList
                 .map((item) => Container(
-                      child: Center(
-                          child: Image.network(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children:  [Image.network(
                         item,
                         fit: BoxFit.cover,
                         height: height,
-                      )),
+                      )
+                          ],
+                      ),
+                          
                     ))
                 .toList(),
           );

@@ -1,4 +1,4 @@
-import 'package:fashion_app/src/widgets/categories.dart';
+import 'package:shop_app/src/widgets/categories.dart';
 import 'package:flutter/material.dart';
 
 class HeaderCategory extends StatelessWidget {

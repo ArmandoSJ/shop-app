@@ -1,4 +1,4 @@
-import 'package:fashion_app/src/activities/activities.dart';
+import 'package:shop_app/src/activities/activities.dart';
 import 'package:flutter/material.dart';
 
 

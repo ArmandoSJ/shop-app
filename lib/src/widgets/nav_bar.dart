@@ -27,32 +27,32 @@ class DesktopNavbar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Image.asset("assets/log.png", width: 170, height: 50),
+            Image.asset("assets/logo_app_fondo.png", width: 170, height: 50),
             Text(
-              "RetroPortal Studio",
+              "TANTE BABY BOUTIQUE",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                  fontSize: 30),
+                  color: Colors.purple.shade100,
+                  fontSize: 20),
             ),
             Row(
               children: <Widget>[
                 Text(
-                  "Home",
+                  "Inicio",
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "About Us",
+                  "Sobre nosotros",
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "Portfolio",
+                  "Catalogo",
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(
@@ -64,7 +64,7 @@ class DesktopNavbar extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(20.0))),
                   onPressed: () {},
                   child: Text(
-                    "Get Started",
+                    "Iniciar sesión",
                     style: TextStyle(color: Colors.black),
                   ),
                 )
@@ -85,7 +85,7 @@ class MobileNavbar extends StatelessWidget {
       child: Container(
         child: Column(children: <Widget>[
           Text(
-            "RetroPortal Studio",
+            "TANTE BABY Boutique",
             style: TextStyle(
                 fontWeight: FontWeight.bold, color: Colors.black, fontSize: 25),
           ),
@@ -95,21 +95,21 @@ class MobileNavbar extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  "Home",
+                  "Inicio",
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "About Us",
+                  "Sobre nosotros",
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(
                   width: 30,
                 ),
                 Text(
-                  "Portfolio",
+                  "Catalogo",
                   style: TextStyle(color: Colors.black),
                 ),
               ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:fashion_app/src/providers/ui_provider.dart';
-import 'package:fashion_app/src/routes/routes.dart';
+import 'package:shop_app/src/providers/ui_provider.dart';
+import 'package:shop_app/src/routes/routes.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 

@@ -1,4 +1,4 @@
-import 'package:fashion_app/src/widgets/widgets.dart';
+import 'package:shop_app/src/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 

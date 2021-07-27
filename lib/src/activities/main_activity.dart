@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:fashion_app/src/utils/constants.dart' as utils;
-import 'package:fashion_app/src/widgets/buttons.dart';
+import 'package:shop_app/src/utils/constants.dart' as utils;
+import 'package:shop_app/src/widgets/buttons.dart';
 import 'activities.dart';
 
 class MainActivity extends StatelessWidget {

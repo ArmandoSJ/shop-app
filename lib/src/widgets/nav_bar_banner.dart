@@ -14,7 +14,7 @@ class NavBarBanner extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 IconButton(
-                    icon: const Icon(Icons.facebook),
+                    icon:  Icon(Icons.photo),
                     color: Colors.blue,
                     onPressed: () {}),
                 IconButton(

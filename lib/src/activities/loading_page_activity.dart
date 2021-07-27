@@ -5,11 +5,19 @@ class LandingPage extends StatelessWidget {
     return <Widget>[
       Container(
         width: width,
+        //width: double.infinity,
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 0.0),
+              child:  Image.asset(
+                  "assets/portada.png",
+                  fit: BoxFit.cover
+                ),
+            ),
             Text(
-              "Website Developers",
+              "Baby Goods/Kids Goods",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40.0,
@@ -18,7 +26,7 @@ class LandingPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: Text(
-                "We have taken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate.",
+                "Nuestro objetivo ofrecerte los mejores productos para bebés y niños",
                 style: TextStyle(fontSize: 16.0, color: Colors.black),
               ),
             ),
@@ -31,21 +39,22 @@ class LandingPage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),
                 child: Text(
-                  "Our Packages",
+                  "Ir al catalogo",
                   style: TextStyle(color: Colors.red),
                 ),
               ),
-            )
+            ), 
           ],
         ),
       ),
-      Padding(
-        padding: const EdgeInsets.symmetric(vertical: 10.0),
-        child: Image.asset(
-          "assets/lp_image.png",
-          width: width,
-        ),
-      )
+      /* Padding(
+        padding: EdgeInsets.symmetric(vertical: 0.0),
+        child:  Image.asset(
+            "assets/portada.png",
+            fit: BoxFit.cover
+          //width: width,
+          ),
+      ) */
     ];
   }
 
@@ -54,9 +63,11 @@ class LandingPage extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth > 800) {
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: pageChildren(constraints.biggest.width / 2),
+          return Stack(
+            children: pageChildren(constraints.biggest.width ) 
+              
+            //mainAxisAlignment: MainAxisAlignment.center,
+            //children: pageChildren(constraints.biggest.width / 2),
           );
         } else {
           return Column(

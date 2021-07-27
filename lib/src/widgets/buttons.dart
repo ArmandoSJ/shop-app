@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fashion_app/src/utils/constants.dart' as utils;
+import 'package:shop_app/src/utils/constants.dart' as utils;
 
 class ButtonUI extends StatelessWidget {
   final text;
