@@ -35,10 +35,7 @@ class _HomePageBody extends StatelessWidget {
         return LogInActivity();
 
       /* case 2:
-        return LogInActivity();
-
-      case 3:
-        return LogInActivity();  */
+        return LogInActivity(); */
 
       default:
         return LogInActivity();
