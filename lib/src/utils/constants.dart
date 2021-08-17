@@ -13,3 +13,6 @@ const kTitleTextColor = Color(0xFF30384D);
 const kTextColor = Color(0xFF4D5875);
 
 const kDefaultPadding = 20.0;
+
+const double padding = 20;
+const double avatarRadius = 45;

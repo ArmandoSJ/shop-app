@@ -33,7 +33,9 @@ dependencies:
   provider: ^5.0.0
   flutter_card_swipper: ^0.4.0
   carousel_slider: ^4.0.0
-
+  connectivity: ^3.0.6
+  font_awesome_flutter: ^9.1.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
